@@ -1,0 +1,37 @@
+@import "https://unpkg.com/@a1rth/css-normalize@1.1.3/index.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(169, 211, 228);
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border: 3px solid rgb(69, 78, 207);
+  border-radius: 5px;
+  background-color: rgb(169, 211, 228);
+}
+
+.h1 {
+  text-align: center;
+  color: darkslateblue;
+}
+
+input,
+button {
+  border: 3px solid rgb(69, 78, 207);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  color: darkslateblue;
+  background-color: cornsilk;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
